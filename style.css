@@ -9,3 +9,79 @@
 	light orange color: #ec9371
 
 ******/
+/* To calculate the elements Widths including thier padding and borders */
+*{
+	margin : 0;
+	padding : 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-size : 14px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+	max-width : 500px;
+	margin : 20px auto;
+}
+
+.item{
+	border: 1px solid black;
+	border-radius: 10px;
+	overflow: hidden;
+	background-color : #ec9371;
+}
+
+.item:hover{
+	box-shadow : 0 0 10px black;
+}
+
+.item:nth-child(1n+2){
+	margin-top : 15px;
+}
+
+header{
+	position : relative;
+	height : 50px;
+	padding : 10px;
+	background-color : #DB4006;
+	cursor: pointer;
+}
+
+header h1{
+	color : white;
+}
+
+header span.close{
+	font-size : 1.5em;
+	position :absolute;
+	right : 3%;
+	top : 22%;
+	z-index: 1;
+	padding: 5px;
+}
+
+.item p.description{
+	padding : 10px;
+}
+
+.wrapper{
+	text-align: center;
+}
+
+input[type="text"]{
+	display: inline-block;
+	margin-top :20px;
+	width : 60%;
+	padding : 10px;
+	border : 1px solid #DB4006;
+}
+
+.add{
+	padding : 10px;
+	border: 1px solid black;
+	box-shadow : 3px 3px 0px 0 #DB4006;
+	background-color : #f4f4f4;
+	cursor: pointer;
+}

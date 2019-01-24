@@ -1,40 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Front-End Test</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<div class="container">
-		<div class="item-list">
-			<div class="item">
-				<h1 class="title">Title 1</h1>
-				<span class="close">x</span>
-				<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id scelerisque lacus, rutrum lobortis nisl. Ut dapibus, quam in auctor pharetra, nibh erat pharetra velit, vitae tristique mauris dui quis.</p>
-			</div>
-			<div class="item">
-				<h1 class="title">Title 2</h1>
-				<span class="close">x</span>
-				<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id scelerisque lacus, rutrum lobortis nisl. Ut dapibus, quam in auctor pharetra, nibh erat pharetra velit, vitae tristique mauris dui quis.</p>
-			</div>
-			<div class="item">
-				<h1 class="title">Title 3</h1>
-				<span class="close">x</span>
-				<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id scelerisque lacus, rutrum lobortis nisl. Ut dapibus, quam in auctor pharetra, nibh erat pharetra velit, vitae tristique mauris dui quis.</p>
-			</div>
-			<div class="item">
-				<h1 class="title">Title 4</h1>
-				<span class="close">x</span>
-				<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id scelerisque lacus, rutrum lobortis nisl. Ut dapibus, quam in auctor pharetra, nibh erat pharetra velit, vitae tristique mauris dui quis.</p>
-			</div>
-		</div>
-		<input type="text" name="newtitle" id="newtitle">
-		<button class="add">Add New</button>
-	</div>	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width = device-width , initial-scale = 1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Front-End Test</title>
+		<!-- CSS Files -->
+		<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
 
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="main.js"></script>
-
-</body>
+		<!-- JavaScript Files -->
+		<!--Scripts to support Internet Explorer below version 9-->
+                
+			<!-- [if lt IE 9]>
+			<script type="text/javascript" src="js/html5shiv.min.js"></script>
+			<script type="text/javascript" src="js/respond.min.js"></script>
+		<![end if] -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="main.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="item-list">
+				
+			</div>
+			<div class="wrapper">
+				<form id="add_new">
+					<input type="text" name="newtitle" id="newtitle">
+					<input type="submit" class="add" value="Add New">	
+				</form>
+				
+			</div>
+		</div>	
+	</body>
 </html>
